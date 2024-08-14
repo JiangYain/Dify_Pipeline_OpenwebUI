@@ -78,10 +78,11 @@ class Pipeline:
                             json_line = json.loads(decoded_line)
                             if json_line.get("event") == "message":
                                 buffer += json_line.get("answer", "")
-                                # Yield buffered content periodically
-                                if len(buffer) > 50:
+                                # Yield buffered content more frequently for smoother typing effect
+                                if len(buffer) > 5:  # Reduced buffer size for more frequent updates
                                     yield buffer
                                     buffer = ""
+                                    time.sleep(0.001)  # Add slight delay for typing effect
                         except json.JSONDecodeError:
                             continue
                 if buffer:
