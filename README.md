@@ -1,0 +1,2 @@
+# Dify_Pipeline_OpenwebUI
+通过该项目将Dify通过Pipeline接入OpenwebUI，可以兼并OpenwebUI的前端优势和相应生态以及Dify强大的模型可拓展性和Workflow的效益。
