@@ -1,2 +1,4 @@
 # Dify_Pipeline_OpenwebUI
 通过该项目将Dify通过Pipeline接入OpenwebUI，可以兼并OpenwebUI的前端优势和相应生态以及Dify强大的模型可拓展性和Workflow的效益。
+
+很遗憾，当前前端似乎没有办法正确的传入chat_id，这会导致不同会话的上下文没有办法保持独立
