@@ -67,7 +67,7 @@ class Pipeline:
 
         try:
             r = requests.post(
-                url="http://124.221.2.138/v1/chat-messages",
+                url="http://124.xx1.2.xxx/v1/chat-messages",
                 json=payload,
                 headers=headers,
                 stream=body.get("stream", False),
