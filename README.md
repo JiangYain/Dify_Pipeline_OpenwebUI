@@ -1,5 +1,5 @@
 # Dify_Pipeline_OpenwebUI 
-通过该项目将Dify通过Pipeline接入OpenwebUI，可以兼并OpenwebUI的前端优势和相应生态以及Dify强大的模型可拓展性和Workflow的效益。 
+通过该项目将Dify通过Pipeline接入OpenwebUI，可以兼并OpenwebUI的前端优势和相应生态以及Dify强大的模型可拓展性和Workflow的效益。/n
 By integrating Dify into OpenwebUI through the Pipeline, this project aims to combine the front-end advantages and ecosystem of OpenwebUI with the powerful model scalability and workflow benefits of Dify.
 
 08.15 初步测试没有遇到问题 
